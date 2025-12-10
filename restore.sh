@@ -87,6 +87,7 @@ clean_usbmuxd() {
 display_help() {
     echo ' *** Legacy iOS Kit ***
   - Script by LukeZGD -
+  - Build by coltonsr77 -
 
 Usage: ./restore.sh [Options]
 
