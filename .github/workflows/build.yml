@@ -30,7 +30,7 @@ jobs:
           pushd resources
           curl -L https://github.com/LukeZGD/ipwndfu/archive/ea998f27d737611a30e0d10fbf251d66967022f6.zip -o ipwndfu_python3.zip
           curl -L https://github.com/LukeZGD/ipwndfu/archive/2bc68605dd0dd31ab27fa720452e4ccd4e638d0d.zip -o ipwndfu.zip
-          curl -L https://github.com/LukeZGD/Legacy-iOS-Kit-Keys/archive/refs/heads/master.zip -o keys.zip
+          curl -L https://github.com/coltonsr77/Legacy-iOS-Kit-Keys/archive/refs/heads/master.zip -o keys.zip
           unzip keys.zip -d .
           cp -r Legacy-iOS-Kit-Keys-master/* ../saved/firmware
           unzip ipwndfu_python3.zip -d .
